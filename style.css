@@ -1,0 +1,25 @@
+body{
+ background-image: url("background.jpg");   
+}
+h2{
+    font-size: 31px;
+}
+.btn-success:hover{
+background-color:rgb(255, 0, 0);
+
+}
+
+canvas{
+    animation-name: chubbycheeks;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes chubbycheeks{
+    from{
+        box-shadow:3px 3px 39px black;
+    }
+    to{
+        box-shadow:3px 3px 39px gold;
+    }
+}
